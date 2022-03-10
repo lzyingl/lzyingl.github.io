@@ -111,6 +111,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 
+
+
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -166,6 +168,42 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.quote-box{
+  overflow: hidden;
+  align-content:center;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 17px;
+  background-color: rgb(150, 171, 177);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color:white;
+  width: 700px;
+ 
+  box-shadow: 2px 2px 2px 2px #dbc9c9;  
+}
+
+.quotation-mark{
+  font-size: 90px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.quote-text{
+  align-content:initial;
+  margin-top: -80px;
+  font-size: 15px;
+  font-family:"Montserrat",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quoted-person{
+  align-content:initial;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family:"Montserrat",Verdana, Geneva, Tahoma, sans-serif;
 }
 
 abbr[title],
